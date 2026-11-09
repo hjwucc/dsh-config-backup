@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "name": "@chushiz/dsh-archive-manager",
+      "version": "0.6.3",
+      "spec": "0.6.3",
+      "isBundle": true,
+      "inBundles": [
+        "@chushiz/dsh-archive-manager"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@kb1slnlabs/dsh-ponytail",
+      "version": "5.3.3-dsh.6",
+      "spec": "5.3.3-dsh.6",
+      "isBundle": true,
+      "inBundles": [
+        "@kb1slnlabs/dsh-ponytail"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@linxin666/dsh-client-ui-git-graph",
+      "version": "0.4.13",
+      "spec": "0.4.13",
+      "isBundle": true,
+      "inBundles": [
+        "@linxin666/dsh-client-ui-git-graph"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@liustack/modsearch",
+      "version": "5.10.11",
+      "spec": "5.10.11",
+      "isBundle": true,
+      "inBundles": [
+        "@liustack/modsearch"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@next-ai-drawio/dsh",
+      "version": "0.1.0",
+      "spec": "0.1.0",
+      "isBundle": true,
+      "inBundles": [
+        "@next-ai-drawio/dsh"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@starwish-ai/xingyuan-dsh",
+      "version": "0.6.7",
+      "spec": "0.6.7",
+      "isBundle": true,
+      "inBundles": [
+        "@starwish-ai/xingyuan-dsh"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@tt-a1i/archify-dsh",
+      "version": "1.0.0",
+      "spec": "1.0.0",
+      "isBundle": true,
+      "inBundles": [
+        "@tt-a1i/archify-dsh"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-cost-meter",
+      "version": "1.9.46",
+      "spec": "1.9.46",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-cost-meter"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-plugin-market-bundle",
+      "version": "",
+      "isBundle": true,
+      "inBundles": [
+        "@deepseek-ai/dsh-experimental-plugin-market-bundle"
+      ],
+      "enabled": true,
+      "bundlesOnly": true
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-tool-worktree",
+      "version": "",
+      "isBundle": true,
+      "inBundles": [
+        "@deepseek-ai/dsh-experimental-tool-worktree"
+      ],
+      "enabled": true,
+      "bundlesOnly": true
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-titles-bundle",
+      "version": "",
+      "isBundle": true,
+      "inBundles": [
+        "@deepseek-ai/dsh-experimental-session-titles-bundle"
+      ],
+      "enabled": true,
+      "bundlesOnly": true
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
+      "version": "",
+      "isBundle": true,
+      "inBundles": [
+        "@deepseek-ai/dsh-experimental-agent-team-profile"
+      ],
+      "enabled": true,
+      "bundlesOnly": true
+    }
+  ],
+  "patch": [
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "ui-settings-general",
+      "raw": {
+        "id": "ui-settings-general",
+        "name": "@deepseek-ai/dsh-client-ui-settings-general",
+        "config": {
+          "welcomeNoticeVersion": "2026-09-28.1"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "ui-theme",
+      "raw": {
+        "id": "ui-theme",
+        "name": "@deepseek-ai/dsh-client-ui-theme",
+        "config": {
+          "preference": "dark"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "llm-pi-ai",
+      "raw": {
+        "id": "llm-pi-ai",
+        "name": "@deepseek-ai/dsh-llm-pi-ai",
+        "config": {
+          "providers": {
+            "opencode-go": {
+              "models": [
+                {
+                  "id": "deepseek-v4.1-flash",
+                  "name": "DeepSeek V4.1 Flash",
+                  "contextWindow": 1000000,
+                  "maxTokens": 384000,
+                  "input": [
+                    "text",
+                    "image"
+                  ]
+                },
+                {
+                  "id": "minimax-m3.1-flash",
+                  "name": "MiniMax M3.1 Flash",
+                  "contextWindow": 1000000,
+                  "maxTokens": 512000,
+                  "input": [
+                    "text",
+                    "image"
+                  ]
+                }
+              ],
+              "apiKeyEnv": "OPENCODE_GO_API_KEY"
+            }
+          }
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "agent-default-model",
+      "raw": {
+        "id": "agent-default-model",
+        "name": "@deepseek-ai/dsh-agent-default-model",
+        "config": {
+          "provider": "opencode-go",
+          "model": "deepseek-v4.1-flash",
+          "reasoningEffort": "max"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "ui-conversation",
+      "raw": {
+        "id": "ui-conversation",
+        "name": "@deepseek-ai/dsh-client-ui-conversation",
+        "config": {
+          "busyEnter": "queue"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "locale",
+      "raw": {
+        "id": "locale",
+        "name": "@deepseek-ai/dsh-client-locale",
+        "config": {
+          "preference": "zh"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "llm-deepseek",
+      "raw": {
+        "id": "llm-deepseek",
+        "name": "@deepseek-ai/dsh-llm-deepseek",
+        "config": {
+          "models": [
+            {
+              "id": "deepseek-flash",
+              "name": "DeepSeek-V41-Flash",
+              "contextWindow": 1000000,
+              "inputModalities": [
+                "text",
+                "image"
+              ],
+              "imagePixelBudget": 640000,
+              "imageMaxBytes": 1048576,
+              "systemPromptUpdate": "in-history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "ui-chat",
+      "raw": {
+        "id": "ui-chat",
+        "name": "@deepseek-ai/dsh-client-ui-chat",
+        "config": {
+          "transcriptView": "standard",
+          "performanceUsage": "detailed"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "agent-preset-registry",
+      "raw": {
+        "id": "agent-preset-registry",
+        "name": "@deepseek-ai/dsh-agent-preset-registry",
+        "config": {
+          "default": "standard",
+          "selectedDefault": "standard"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "xy-bundle",
+      "raw": {
+        "id": "xy-bundle",
+        "name": "@starwish-ai/xingyuan-dsh",
+        "config": {
+          "tabVisibilityMode": "follow"
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "session-log-deepseek",
+      "raw": {
+        "id": "session-log-deepseek",
+        "name": "@deepseek-ai/dsh-session-log-deepseek",
+        "config": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "plugin-market",
+      "raw": {
+        "id": "plugin-market",
+        "name": "@deepseek-ai/dsh-plugin-market",
+        "config": {
+          "indexes": [
+            "https://cdn.jsdelivr.net/npm/dsh-plugin-catalog/index.json"
+          ]
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "ponytail",
+      "raw": {
+        "id": "ponytail",
+        "name": "@kb1slnlabs/dsh-ponytail",
+        "config": {
+          "expandedBand": true,
+          "showBand": false
+        }
+      }
+    }
+  ],
+  "pnpmWorkspace": "packages:\n  - .\n\nnodeLinker: hoisted\nautoInstallPeers: false\n"
+}
