@@ -1,0 +1,36 @@
+{
+  "id": "sync-33a8809e-557c-4a99-9787-59dab356ecdf",
+  "createdAt": "2026-11-12T06:31:44.935Z",
+  "manifest": {
+    "schemaVersion": 1,
+    "dshVersion": "0.2.2-rc.2",
+    "platform": "win32",
+    "sectionIds": [
+      "settings",
+      "ui",
+      "providers",
+      "plugins",
+      "prompts",
+      "skills",
+      "agentPresets",
+      "agentInstructions",
+      "self"
+    ],
+    "containsSecrets": false,
+    "transport": "git",
+    "sourceHome": "C:\\Users\\XFWL\\.dsh",
+    "deviceId": "e4b4761d-f52f-4fef-814c-8628bc9cca50",
+    "deviceName": "DESKTOP-NJRCG45"
+  },
+  "sectionHashes": {
+    "settings": "85d10972aa8bfd504a6bbfa109a4cbe00c6b4d9fd1420a69a9d7d5f0c6e52d16",
+    "ui": "80978e7be56d94ff304f33196edab63d0a88159963ec4e66165754366dafa856",
+    "providers": "dd6ca99ccad6ecb80e5f368a565b93fbbdbe9dfc76ace9b6ff07fb10d5ca4ce8",
+    "plugins": "33cc5eed5f9dd1930952f035b1d68021e7c731e949516679b8f1f8e4c114ae08",
+    "prompts": "23d05fd89e9e61985416d8fb3dfc30e5aae4298aa4f684f2a0391b49d70e8cfd",
+    "skills": "2fe09dfb1ef1f6216d00cf7c1a1e3380349f61fe0ea40c3ea8dcb76e9d670eea",
+    "agentPresets": "461f28780c768c2e6c9efe193e4eb8b4a3df1534948e1e77bac8a11ce2266f0b",
+    "agentInstructions": "2fe09dfb1ef1f6216d00cf7c1a1e3380349f61fe0ea40c3ea8dcb76e9d670eea",
+    "self": "696d040e8f9f5edb922266fa68e9eaee46c05dc217c1a9efdb0b7234969b7e93"
+  }
+}
