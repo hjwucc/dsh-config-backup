@@ -185,8 +185,9 @@
         "id": "agent-default-model",
         "name": "@deepseek-ai/dsh-agent-default-model",
         "config": {
-          "provider": "qwen-token-plan",
-          "model": "qwen4-max"
+          "provider": "opencode-go",
+          "model": "deepseek-v4.1-flash",
+          "reasoningEffort": "max"
         }
       }
     },
