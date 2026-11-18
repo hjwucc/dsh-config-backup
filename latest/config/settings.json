@@ -661,6 +661,37 @@
         "live"
       ],
       "secrets": []
+    },
+    "zzerx-memory": {
+      "value": {
+        "autoCapture": true,
+        "autoInject": true,
+        "maxInjected": 6,
+        "importanceThreshold": 4,
+        "captureEveryTurns": 3,
+        "captureMaxTurns": 4,
+        "captureMaxChars": 4000,
+        "captureIncludeAssistant": false,
+        "llmProvider": "",
+        "llmModel": ""
+      },
+      "base": {
+        "autoCapture": true,
+        "autoInject": true,
+        "maxInjected": 6,
+        "importanceThreshold": 4,
+        "captureEveryTurns": 3,
+        "captureMaxTurns": 4,
+        "captureMaxChars": 4000,
+        "captureIncludeAssistant": false,
+        "llmProvider": "",
+        "llmModel": ""
+      },
+      "revision": 0,
+      "applies": [
+        "live"
+      ],
+      "secrets": []
     }
   }
 }

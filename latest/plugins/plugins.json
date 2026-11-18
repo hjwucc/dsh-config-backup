@@ -52,6 +52,26 @@
       "enabled": true
     },
     {
+      "name": "@zzerx/dsh-plugin-memory",
+      "version": "0.4.4",
+      "spec": "0.4.4",
+      "isBundle": true,
+      "inBundles": [
+        "@zzerx/dsh-plugin-memory"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "dsh-cost-meter",
+      "version": "1.9.72",
+      "spec": "1.9.72",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-cost-meter"
+      ],
+      "enabled": true
+    },
+    {
       "name": "dsh-mcp-station",
       "version": "0.2.1",
       "spec": "0.2.1",
