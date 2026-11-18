@@ -24,7 +24,7 @@
         "provider": "deepseek-official",
         "model": "deepseek-flash"
       },
-      "revision": 3,
+      "revision": 0,
       "applies": [
         "live"
       ],
