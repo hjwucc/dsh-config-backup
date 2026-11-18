@@ -1,6 +1,6 @@
 {
-  "id": "sync-fc245ed9-4368-41ea-abb9-3eb97e6191eb",
-  "createdAt": "2026-11-18T01:23:01.938Z",
+  "id": "sync-1d03d810-bc42-41b1-acca-327fa19f2877",
+  "createdAt": "2026-11-18T11:11:31.815Z",
   "manifest": {
     "schemaVersion": 1,
     "dshVersion": "0.2.2-rc.4",
@@ -23,10 +23,10 @@
     "deviceName": "DESKTOP-NJRCG45"
   },
   "sectionHashes": {
-    "settings": "eb50f075dd30770fab15e1d0e95926947cf9c9b88cff3630f2d0e1e4571c23ad",
+    "settings": "ea953c309d44f94a0354a2389bff4b3d2f66a8ad5c4bd1f3c23cfcf1782c5abf",
     "ui": "80978e7be56d94ff304f33196edab63d0a88159963ec4e66165754366dafa856",
     "providers": "c8b77db3088dedbeca354f4e4a376e33536bf00712bf592661ccdcf6b8e259b7",
-    "plugins": "76d2d05193608ffbbfe9e3a0f56450211f53ac330128ab0ab5b188a1465c2154",
+    "plugins": "870e89c718317a0217d118f0092b85c160f6606984ceaae9ca8c8ebb3eb4b0a0",
     "prompts": "23d05fd89e9e61985416d8fb3dfc30e5aae4298aa4f684f2a0391b49d70e8cfd",
     "skills": "2fe09dfb1ef1f6216d00cf7c1a1e3380349f61fe0ea40c3ea8dcb76e9d670eea",
     "agentPresets": "461f28780c768c2e6c9efe193e4eb8b4a3df1534948e1e77bac8a11ce2266f0b",
