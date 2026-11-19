@@ -16,14 +16,14 @@
     },
     "agent-default-model": {
       "value": {
-        "provider": "opencode-go",
-        "model": "deepseek-v4.1-flash"
+        "provider": "qwen-token-plan",
+        "model": "qwen4-max"
       },
       "base": {
         "provider": "deepseek-official",
         "model": "deepseek-flash"
       },
-      "revision": 9,
+      "revision": 10,
       "applies": [
         "live"
       ],
