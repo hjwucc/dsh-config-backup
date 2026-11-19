@@ -17,14 +17,13 @@
     "agent-default-model": {
       "value": {
         "provider": "opencode-go",
-        "model": "deepseek-v4.1-flash",
-        "reasoningEffort": "max"
+        "model": "deepseek-v4.1-flash"
       },
       "base": {
         "provider": "deepseek-official",
         "model": "deepseek-flash"
       },
-      "revision": 5,
+      "revision": 9,
       "applies": [
         "live"
       ],

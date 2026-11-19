@@ -63,8 +63,8 @@
     },
     {
       "name": "dsh-cost-meter",
-      "version": "1.9.72",
-      "spec": "1.9.72",
+      "version": "1.9.74",
+      "spec": "1.9.74",
       "isBundle": true,
       "inBundles": [
         "dsh-cost-meter"
@@ -326,8 +326,7 @@
         "name": "@deepseek-ai/dsh-agent-default-model",
         "config": {
           "provider": "opencode-go",
-          "model": "deepseek-v4.1-flash",
-          "reasoningEffort": "max"
+          "model": "deepseek-v4.1-flash"
         }
       }
     }
