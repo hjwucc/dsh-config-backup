@@ -1,6 +1,6 @@
 {
-  "id": "sync-7829250f-607a-4f78-b231-e632850b6c13",
-  "createdAt": "2026-11-19T06:10:06.877Z",
+  "id": "sync-5d6e3bf3-87ae-49b9-9764-832c3b83be71",
+  "createdAt": "2026-11-19T06:41:52.531Z",
   "manifest": {
     "schemaVersion": 1,
     "dshVersion": "0.2.2-rc.4",
@@ -31,6 +31,6 @@
     "skills": "2fe09dfb1ef1f6216d00cf7c1a1e3380349f61fe0ea40c3ea8dcb76e9d670eea",
     "agentPresets": "461f28780c768c2e6c9efe193e4eb8b4a3df1534948e1e77bac8a11ce2266f0b",
     "agentInstructions": "2fe09dfb1ef1f6216d00cf7c1a1e3380349f61fe0ea40c3ea8dcb76e9d670eea",
-    "self": "696d040e8f9f5edb922266fa68e9eaee46c05dc217c1a9efdb0b7234969b7e93"
+    "self": "81994494ea14fce185cd84cff92dcf4f8877004cc5363cc934553f796a6397d2"
   }
 }
