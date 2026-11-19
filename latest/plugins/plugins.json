@@ -190,18 +190,6 @@
     },
     {
       "file": "profiles/web/cordis.patch.yml",
-      "lineId": "agent-default-model",
-      "raw": {
-        "id": "agent-default-model",
-        "name": "@deepseek-ai/dsh-agent-default-model",
-        "config": {
-          "provider": "qwen-token-plan",
-          "model": "qwen4-max"
-        }
-      }
-    },
-    {
-      "file": "profiles/web/cordis.patch.yml",
       "lineId": "ui-conversation",
       "raw": {
         "id": "ui-conversation",
@@ -327,6 +315,19 @@
         "name": "@kb1slnlabs/dsh-ponytail",
         "config": {
           "showBand": false
+        }
+      }
+    },
+    {
+      "file": "profiles/web/cordis.patch.yml",
+      "lineId": "agent-default-model",
+      "raw": {
+        "id": "agent-default-model",
+        "name": "@deepseek-ai/dsh-agent-default-model",
+        "config": {
+          "provider": "deepseek-official",
+          "model": "deepseek-flash",
+          "reasoningEffort": "max"
         }
       }
     }
