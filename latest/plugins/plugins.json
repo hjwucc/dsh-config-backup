@@ -62,6 +62,16 @@
       "enabled": true
     },
     {
+      "name": "dsh-cost-meter",
+      "version": "1.9.77",
+      "spec": "1.9.77",
+      "isBundle": true,
+      "inBundles": [
+        "dsh-cost-meter"
+      ],
+      "enabled": true
+    },
+    {
       "name": "dsh-mcp-station",
       "version": "0.2.1",
       "spec": "0.2.1",
